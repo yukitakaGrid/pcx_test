@@ -123,12 +123,31 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!114 &5 stripped
+--- !u!1 &54597123 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8980549144392899874, guid: 798bb28234b98d54b872b50721a2466f, type: 3}
+  m_PrefabInstance: {fileID: 1779423358}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &54597124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 54597123}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02479684007f34f4db420ab9f7de0a9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointCloudRenderer: {fileID: 54597125}
+  flashColor: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &54597125 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: -3955353439144410109, guid: 798bb28234b98d54b872b50721a2466f, type: 3}
-  m_PrefabInstance: {fileID: 1690349005}
+  m_PrefabInstance: {fileID: 1779423358}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1964197845}
+  m_GameObject: {fileID: 54597123}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3b5900aba1767854aa98592c99eb8b8a, type: 3}
@@ -312,7 +331,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1690349005
+--- !u!1001 &1779423358
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -322,22 +341,6 @@ PrefabInstance:
     - target: {fileID: -3955353439144410109, guid: 798bb28234b98d54b872b50721a2466f, type: 3}
       propertyPath: _pointSize
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: -3955353439144410109, guid: 798bb28234b98d54b872b50721a2466f, type: 3}
-      propertyPath: _pointTint.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -3955353439144410109, guid: 798bb28234b98d54b872b50721a2466f, type: 3}
-      propertyPath: _pointTint.b
-      value: 0.23773581
-      objectReference: {fileID: 0}
-    - target: {fileID: -3955353439144410109, guid: 798bb28234b98d54b872b50721a2466f, type: 3}
-      propertyPath: _pointTint.g
-      value: 0.05517263
-      objectReference: {fileID: 0}
-    - target: {fileID: -3955353439144410109, guid: 798bb28234b98d54b872b50721a2466f, type: 3}
-      propertyPath: _pointTint.r
-      value: 0.17664695
       objectReference: {fileID: 0}
     - target: {fileID: -364223573239433514, guid: 798bb28234b98d54b872b50721a2466f, type: 3}
       propertyPath: m_RootOrder
@@ -389,21 +392,3 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: -4216948427090074523, guid: 798bb28234b98d54b872b50721a2466f, type: 3}
---- !u!1 &1964197845 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8980549144392899874, guid: 798bb28234b98d54b872b50721a2466f, type: 3}
-  m_PrefabInstance: {fileID: 1690349005}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1964197848
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1964197845}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 02479684007f34f4db420ab9f7de0a9c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pointCloudRenderer: {fileID: 5}
