@@ -1,0 +1,13 @@
+{
+  "project": "kd-tree",
+  "design": "python/kdtree/kdtree.py の先頭の説明",
+  "workdir": "python",
+  "test": "python3 -m unittest discover -s tests",
+  "frozen": ["python/bench.py", "python/tests"],
+  "stdlib_only": true,
+  "allowed_bash": ["python3"],
+  "tasks": [
+    {"id": "T1", "title": "速くする", "goal": "純粋な Python の3次元 kd-tree の構築と探索を速くする", "kind": "improve",
+     "bench": "python3 bench.py", "direction": "lower", "status": "todo"}
+  ]
+}
